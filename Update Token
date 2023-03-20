@@ -1,0 +1,11 @@
+How To Update Your GitHub Personal Access Token
+"""""""""""""""""""""""""""""""""""""""""""""""""
+git remote -v
+git remote remove origin
+git remote add origin https://[PERSONALACCESSTOKEN]@github.com/[USERNAME]/[REPO].git
+
+
+git push -u origin HEAD
+or
+git push -f -u origin HEAD
+
